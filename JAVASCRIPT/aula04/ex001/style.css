@@ -1,0 +1,19 @@
+
+body {
+    background-color: #0b6e6e;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: blueviolet;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    width: 500px;
+    
+}
+
+h1 {
+    color: #61f1cd;
+}

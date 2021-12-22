@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(Poppins-Light.ttf)
+}
+body {
+    font-family: 'poppins';
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+header > h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(105, 103, 103);
+    padding: 8px;
+    box-shadow: 2px 2px 5px rgb(148, 148, 148);
+    border-radius: 3px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: rgb(158, 216, 218);
+}
+
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+article {
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+article > aside {
+    background-color: rgb(165, 165, 165);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+#Assuntos {
+    font-size: 18px;
+}
